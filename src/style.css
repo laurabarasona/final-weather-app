@@ -20,7 +20,6 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-
   color: #495057;
   font-size: 16px;
   font-weight: 100;
@@ -37,7 +36,7 @@ li:first-letter {
 }
 
 .weather-app {
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
 }
@@ -87,4 +86,15 @@ footer {
 
 .row {
   margin-bottom: 30px;
+}
+
+.weather-forecast {
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
